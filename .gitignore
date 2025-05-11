@@ -1,0 +1,69 @@
+# Unity生成的文件和文件夹
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 资产存储工具插件
+[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / MonoDevelop 缓存目录
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D生成的元数据文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D生成的崩溃报告
+sysinfo.txt
+
+# 构建包含资产的文件
+*.apk
+*.aab
+*.unitypackage
+
+# 崩溃转储
+*.stackdump
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio代码生成
+.vscode/
+.vsconfig
+
+# 大尺寸二进制资产（默认Git LFS不是必需的）
+# Assets/[Aa]rt/
+# Assets/[Ss]ounds/
+# Assets/[Mm]odels/
+# Assets/[Tt]extures/
+
+# 根据具体情况可能不需要跟踪的其他文件
+# /[Aa]ssets/[Pp]lugins/
+# /[Aa]ssets/[Ss]treamingAssets/ 
