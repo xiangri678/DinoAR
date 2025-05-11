@@ -1,10 +1,82 @@
-# DinoAR
+# DinoAR (English)
+
+An early exploratory version of an AR-based dinosaur metaverse system developed for a dinosaur fossil museum.
+
+## Project Overview
+
+DinoAR is an augmented reality application developed with Unity using NRSDK, designed to run on XREAL X and other AR glasses. Through augmented reality technology, users can observe 3D dinosaur models in their real environment, interact with the dinosaurs, and enjoy an immersive exhibition experience.
+
+### Key Features
+
+- **Plane Detection**: Identifies planes in the real environment to provide walking surfaces for dinosaurs
+- **Gesture Interaction**: Control dinosaur behavior and movement through gestures
+- **Gaze Tracking**: A reticle indicates the user's focus point, and dinosaurs move according to the reticle position
+- **Animations and Sound Effects**: Realistic dinosaur animations and sound effects enhance immersion
+- **Screen Recording**: Ability to record AR interactions and save to device gallery
+
+![启动游戏](/images/启动游戏.png)
+
+## Technical Architecture
+
+- **Development Environment**: Unity 2022.3.x
+- **Target Platforms**: XREAL X AR glasses, supported Android phones
+- **Key Technologies**:
+  - NRSDK (plane detection, gesture recognition, motion tracking, etc.)
+  - Unity 3D model rendering and animation
+  - C# scripting
+
+## Installation and Usage
+
+### System Requirements
+
+- XREAL X AR glasses
+- Supported Android phone (e.g., OPPO Find X5)
+- Unity 2022.3 (only required for development)
+
+### Installation Steps
+
+1. Install the APK file on a supported Android device
+2. Connect the AR glasses
+3. Launch the application; it will automatically begin plane detection
+4. When a plane is detected, use gestures or controller to point at the plane, and dinosaurs will appear and follow the reticle
+
+## Developer Guide
+
+### Project Directory Structure
+
+- `Assets/Scripts/`: Main application scripts
+- `Assets/PBRVelociraptor/`: Dinosaur models, animations, sound effects, and related scripts
+- `Assets/NRSDK/`: NREAL SDK resources
+- `Assets/Scenes/`: Application scenes
+- `Assets/PlaneDetectionStarterPackage/`: Plane detection resources
+- `ProjectSettings/`: Unity project settings
+
+### Key Scripts
+
+- Plane Detection: `PlaneDetector`
+- Reticle Tracking: `ReticleBehaviour.cs`
+- Dinosaur Behavior: `DinoBehaviour`
+- Dinosaur Sound Effects: `RaptorSoundEffects.cs`
+- Gem Generation: `GemSpawner.cs`
+- Screen Recording: `VideoCapture2LocalExample`
+
+## Contribution Guidelines
+
+Contributions to the DinoAR project are welcome! If you find bugs or have suggestions for improvements, please submit an issue or pull request.
+
+## License
+
+MIT
+
+---
+
+# DinoAR（简体中文）
 
 基于AR眼镜的恐龙元宇宙系统，为某恐龙化石博物馆开发的AR展示应用的初期探索版本。
 
 ## 项目概述
 
-DinoAR是一款基于Unity开发的AR应用，使用NREAL SDK开发，可在XREAL X等AR眼镜上运行。通过增强现实技术，用户可以在现实环境中观察3D恐龙模型，与恐龙互动，获得身临其境的展示体验。
+DinoAR是一款基于Unity开发的AR应用，使用NRSDK开发，可在XREAL X等AR眼镜上运行。通过增强现实技术，用户可以在现实环境中观察3D恐龙模型，与恐龙互动，获得身临其境的展示体验。
 
 ### 主要功能
 
@@ -14,19 +86,17 @@ DinoAR是一款基于Unity开发的AR应用，使用NREAL SDK开发，可在XREA
 - **动画与音效**：逼真的恐龙动画和音效，提升沉浸感
 - **屏幕录制**：可记录AR交互过程，保存至设备相册
 
-![启动游戏](/images/启动游戏.png)
-
 ## 技术架构
 
-**开发环境**：Unity 2022.3.x
+**开发环境**：Unity 2022.3
 
 **目标平台**：XREAL X AR眼镜、支持的Android手机
 
 **主要技术**：
 
--  NRSDK（平面检测、手势识别、运动追踪等）
--  Unity 3D模型渲染与动画
--  C#脚本编程
+- NRSDK（平面检测、手势识别、运动追踪等）
+- Unity 3D模型渲染与动画
+- C#脚本编程
 
 ## 安装与使用
 
@@ -34,7 +104,7 @@ DinoAR是一款基于Unity开发的AR应用，使用NREAL SDK开发，可在XREA
 
 - XREAL X AR眼镜
 - 支持的Android手机（例如OPPO Find X5）
-- Unity 2022.3或更高版本（仅开发时需要）
+- Unity 2022.3（仅开发时需要）
 
 ### 安装步骤
 
